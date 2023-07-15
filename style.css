@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+
+} */
+header {
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 13px 150px;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 0.2px grey;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.03rem;
+}
+.left{
+    font-size: 1.5rem;
+    
+}
+.firstSection{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin: 90px 0;
+}
+.firstSection > div{
+    width:auto;
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+/* 
+.btn1{
+    padding : 20px 0;
+    /* margin: 2%; */
+    /* background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size:medium;
+    cursor: pointer;
+
+} */ */
+
+/* 
+.btn2{
+    cursor: pointer;;
+    padding : 20px 0;
+    /* marg?in: 2%; */
+    /* background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size:medium;
+    cursor: pointer;
+} */ */
+
+.rightSection .img{
+    width: 80%;
+}
+.purple{
+    color: rgb(170, 100, 235);
+}
+.container {
+    display: flex;
+    justify-content :right;
+    align-items: center;
+    width: 80%;
+    margin: 50px 0;
+    /* right: 150px; */
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    
+    
+    height: 100vh; /* Adjust this value as needed */
+    
+    }
+    .container img {
+    
+    max-width: 45%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-height: 70%;
+    }
+    #element{
+        color: rgb(170, 100, 235);
+    }
+
+    .aboutme {
+        text-align: center;
+        background-color: #0f0c27;
+        color: white;
+    }
+    .aboutme-section {
+        display: flex;
+        margin-top: 50px;
+        text-align: left;
+    }
+    .aboutme-heading {
+        font-size: 2.5rem;
+    }
+
+    .aboutme-heading {
+        font-size: 2.5rem;
+    }
+    .icons-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aboutme-text {
+        width: 250%;
+        margin-left: 5%;
+    }
+    
+    .skills {
+        text-align: center;
+        background-color: #0f0c27;
+        color: white;
+        padding: 10%;
+    }
+    
+    .bars-box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+        /* width: 100%; */
+    }
+    
+    .skills-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    
+    .light-bar {
+        width: 100%;
+        background: hsla(260, 100%, 44%, 0.4);
+        height: 0.5rem;
+        position: absolute;
+        top: 10;
+        bottom: 0;
+    }
+    
+    .skill-bar {
+        width: 40%;
+    }
+    
+    .percent-bar {
+        position: absolute;
+        top: 10;
+        bottom: 0;
+        background-color: #033a80;
+        height: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .html-bar {
+        width: 94%;
+    }
+    
+    .css-bar {
+        width: 90%;
+    }
+    
+    .js-bar {
+        width: 75%;
+    }
+    
+    .java-bar {
+        width: 89%;
+    }
+    
+    .skill-heading {
+        font-size: 2.5rem;
+    }
+
+    .github-bar{
+        width: 95%;
+    }
+
+    .node-bar{
+        width: 90%;
+    }
+
+    .react-bar{
+        width: 90%;
+    }
+    
+    /* project */
+    .projects {
+        background-color: #0f0c27;
+        color: white;
+        text-align: center;
+    }
+    
+    .project-heading {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+    
+    .projects img {
+        border-radius: 20px;
+        margin: 5px;
+    }
+
+    /* Contact */
+    .contact-form {
+        background-color: #0f0c27;
+        color: white;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .form input, textarea {
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background-color: #150b3a;
+        text-decoration: none;
+        border: 0;
+        
+    }
+    
+    .form input, textarea {
+        padding: 10px;
+        color: white;
+    }
+    
+    .contact-me-heading {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+    
+    .submit {
+        margin-top: 40px;
+        width: 20%;
+        background-color: #033a80;
+        color: white;
+        padding: 10px 15px;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+
+    footer{
+        background-color: #0e0e1a;
+        /* height: 233; */
+    }
+
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul{
+        list-style: none;
+    }
+
+    .footer > div{
+        width: 223px;
+    }
+
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0px;
+    }
+
+    .leftSection .button{
+        padding : 50px 0;
+    }
+    
+    .leftSection .btn{
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
